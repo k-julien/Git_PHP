@@ -1,0 +1,209 @@
+/*
+  CSS Crée par Kabeche Julien
+*/
+
+body {
+  margin: 0;
+  background-color: royalblue;
+}
+/*
+==========
+    MENU
+==========
+*/
+#navbar{
+  background-color: lightgray;
+  border-bottom: solid;
+  border-color: black;
+}
+.menu{
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+  width: 79%;
+}
+.logo{
+  margin:auto;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+}
+.menu a{
+  color: blue;
+  font-size: 20px;
+  display: inline-block;
+  text-align: right;
+  font-family: "Acme","Gloria Hallelujah","Josefin Sans", "Roboto", arial, serif, sans-serif;
+  margin-right: 20px;
+
+}
+/*
+=================
+  First Section
+=================
+*/
+h1{
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 4em;
+  font-family: "Gloria Hallelujah","Acme","Roboto","Josefin Sans",arial, serif, sans-serif;
+  width: 50%;
+  margin-left: 25%;
+  border-bottom: solid;
+  border-color: black;
+}
+h2{
+  font-size: 20px;
+  color: white;
+  width: 20%;
+  margin-left: 40%;
+}
+h3{
+  margin-left: 5%;
+  font-size: 3em;
+  display: inline-block;
+  color: white;
+}
+.heure{
+  color: black;
+  font-size: 3em;
+  font-family: "Roboto","Josefin Sans","Acme","Gloria Hallelujah", arial, serif, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10%;
+  display: block;
+  width: 100%;
+}
+/*
+=========
+ GET PHP
+=========
+*/
+#GET{
+  background-color: darkgray;
+  border: solid;
+  border-color: gray;
+}
+#GET h2{
+  font-size: 30px;
+  font-family: "Acme","Gloria Hallelujah","Roboto","Josefin Sans", arial, serif, sans-serif;
+  color: white;
+  margin-left: 30px;
+  background-color: royalblue;
+  border: solid;
+  border-color: black;
+}
+p{
+  display: inline-block;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 3em;
+  font-family: "Acme","Gloria Hallelujah","Roboto","Josefin Sans",arial, serif, sans-serif;
+  margin-top: 10%;
+  width: 49%;
+}
+.text-red{
+  color: red;
+}
+.text-blue{
+  color: blue;
+}
+/*
+=============
+ TEMPERATURE
+=============
+*/
+.text{
+  font-size: 3em;
+  color: white;
+  margin-left: 35%;
+  width: auto;
+}
+/*
+===========
+ LOTTERIE
+===========
+*/
+#lotterie{
+  width: 49%;
+  display: inline-block;
+}
+#participants{
+  font-size: 25px;
+  color: black;
+  margin-left: 15%;
+  width: 74%;
+}
+#button2{
+  background-color: green;
+  font-size: 30px;
+  border-color: lightgreen;
+  color: white;
+  width: 75%;
+  margin-top: 7%;
+  margin-left: 15%;
+}
+.titre{
+  font-size: 2em;
+  color: black;
+  display: inline-block;
+  width: 100%;
+}
+.lotterie{
+  display: inline-block;
+  color: white;
+  font-size: 3em;
+  font-family: "Acme","Gloria Hallelujah","Roboto","Josefin Sans",arial, serif, sans-serif;
+  width: 30%;
+  text-align: center;
+  vertical-align: top;
+  margin-bottom: 5%;
+
+}
+/*
+===========
+ CHECK AGE
+===========
+*/
+#formulaire{
+  width: 49%;
+  display: inline-block;
+  margin-left: 5%;
+}
+#annee{
+  font-size: 25px;
+  color: black;
+  margin-top: 2%;
+}
+#age{
+  font-size: 25px;
+  color: black;
+  margin-left: 5%;
+}
+#button{
+  background-color: green;
+  font-size: 35px;
+  border-color: lightgreen;
+  color: white;
+  width: 100%;
+  margin-top: 7%;
+}
+.check{
+  display: inline-block;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 3em;
+  font-family: "Acme","Gloria Hallelujah","Roboto","Josefin Sans",arial, serif, sans-serif;
+  margin-top: 10%;
+  width: 59%;
+}
+.checkage{
+  margin-right: 2%;
+  font-size: 3em;
+  display: inline-block;
+  color: white;
+  width: 35%;
+}

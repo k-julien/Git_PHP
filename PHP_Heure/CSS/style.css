@@ -1,0 +1,64 @@
+/*
+  CSS Crée par Kabeche Julien
+*/
+
+body {
+  margin: 0;
+  background-color: darkgray;
+}
+/*
+==========
+    MENU
+==========
+*/
+#navbar{
+  background-color: lightgray;
+}
+.menu{
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+  width: 79%;
+}
+.logo{
+  margin:auto;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+}
+.menu a{
+  color: blue;
+  font-size: 30px;
+  display: inline-block;
+  text-align: right;
+  font-family: "Acme","Gloria Hallelujah","Josefin Sans", "Roboto", arial, serif, sans-serif;
+  margin-right: 20px;
+
+}
+/*
+=================
+  First Section
+=================
+*/
+h1{
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 4em;
+  font-family: "Gloria Hallelujah","Acme","Roboto","Josefin Sans",arial, serif, sans-serif;
+  border: solid;
+  border-color: transparent;
+  border-radius: 60%;
+  border-width: 8px;
+  background-color: blue;
+  width: 50%;
+  margin-left: 25%;
+}
+p {
+  color: black;
+  font-size: 3em;
+  font-family: "Roboto","Josefin Sans","Acme","Gloria Hallelujah", arial, serif, sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10%;
+}
