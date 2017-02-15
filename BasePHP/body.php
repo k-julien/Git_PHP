@@ -13,6 +13,8 @@
                 <a href="../Temperature/index.php">Temperature</a>
                 <a href="../Verif/index.php">Check Age</a>
                 <a href="../Lotterie/lotterie.php">Lotterie</a>
+                <a href="../Login/login.php">Login</a>
+                <a href="../Plus_Moins/index.php">Plus Ou Moins</a>
             </nav>
         </div>
   <!--First Section-->
