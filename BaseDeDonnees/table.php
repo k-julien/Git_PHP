@@ -19,7 +19,7 @@ if($connexion){
               prenom VARCHAR(255) NOT NULL ,
               nom VARCHAR(255) NOT NULL ,
               ville VARCHAR(255) NOT NULL ,
-              email VARCHAR(255) NOT NULL UNIQUE 
+              email VARCHAR(255) NOT NULL UNIQUE
               )";
   // Préparation et éxecution de la requête
   $connexion->prepare($requete)->execute();
@@ -28,17 +28,5 @@ if($connexion){
 else{
   echo "Connexion Base de Données échoué \n";
 }
-/*CREATE TABLE utilisateur
-(
-    id INT PRIMARY KEY NOT NULL,
-    nom VARCHAR(100),
-    prenom VARCHAR(100),
-    email VARCHAR(255),
-    date_naissance DATE,
-    pays VARCHAR(255),
-    ville VARCHAR(255),
-    code_postal VARCHAR(5),
-    nombre_achat INT
-)
-*/
+
 ?>
